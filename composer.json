@@ -1,5 +1,5 @@
 {
-  "name": "notamedia/console-jedi",
+  "name": "vsavritsky/bitrix-console",
   "description": "Console application for CMS Bitrix",
   "keywords": [
     "bitrix",
@@ -9,13 +9,13 @@
   "type": "library",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/notamedia/console-jedi/issues",
-    "source": "https://github.com/notamedia/console-jedi/"
+    "issues": "https://github.com/vsavritsky/console-jedi/issues",
+    "source": "https://github.com/vsavritsky/console-jedi/"
   },
   "require": {
-    "php": ">=5.4",
-    "symfony/console": "~2.8|~3",
-    "symfony/filesystem": "~2.8|~3"
+    "php": ">=7.1",
+    "symfony/console": "^4.4",
+    "symfony/filesystem": "^4.4"
   },
   "autoload": {
     "psr-4": {
