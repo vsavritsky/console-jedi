@@ -101,6 +101,8 @@ class InitCommand extends Command
         $this->createConfiguration($input, $output);
 
         $output->writeln('<info>' . static::COMPLETED_LOGO . '</info>');
+
+        return \Symfony\Component\Console\Command\Command::SUCCESS;
     }
 
     /**
